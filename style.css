@@ -1,6 +1,70 @@
-body{
-    background-color: rgb(173, 170, 185)
+*{
+    padding: 0;
+    margin:  0 20px 0;
+    box-sizing: border-box;
 }
-a{
-    color: rgb(5, 3, 3);
+
+
+body{
+
+    font-family: inherit;
+    background-color: aliceblue;
+    text-align: center;
+}
+footer{
+    margin: 20px  0;
+    padding: 0 ;
+    background-color: white;
+    height: 150px;
+    display: block;
+    width: 100%;
+}
+
+header h2{
+color: #0866FF;
+font-size: 50px;
+padding-bottom: 20px;
+}
+
+form{
+    margin: 0 auto;
+    width: 398px;
+    height: 392px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 3px 7px 25px 10px rgba(0,0,0,0.31);
+-webkit-box-shadow: 3px 7px 25px 10px rgba(0,0,0,0.31);
+-moz-box-shadow: 3px 7px 25px 10px rgba(0,0,0,0.31);
+}
+form p{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+form input{
+    display: block;
+    width: 367px;
+    height: 40px;
+    border-radius: 2%;
+    border-color: rgba(0, 0, 0, 0.105);
+
+}
+form input[type='button']{
+ background-color: #0866FF;
+ color: white;
+}
+form hr{
+    margin-top: 10px;
+}
+#signupbuttn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #42B72A;
+    color: black;
+}
+hr{
+    color: rgb(57, 56, 56);
+}
+.sidebar{
+    float: right;
 }
