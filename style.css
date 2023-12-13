@@ -37,12 +37,14 @@ form{
 -moz-box-shadow: 3px 7px 25px 10px rgba(0,0,0,0.31);
 }
 form p{
+    padding-top: 20px;
     font-size: 25px;
     margin-bottom: 20px;
 
 }
 form input{
     display: block;
+    padding: 10px;
     width: 367px;
     height: 40px;
     border-radius: 2%;
@@ -60,7 +62,7 @@ form hr{
     margin-top: 30px;
     margin-bottom: 20px;
     background-color: #42B72A;
-    color: black;
+    color: WHITE;
 }
 hr{
     color: rgb(57, 56, 56);

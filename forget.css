@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+body{
+    background-color: #E9EBEE;
+}
+.apurobo{
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    box-shadow: -2px 5px 40px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 5px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 5px 40px 0px rgba(0,0,0,0.75);
+}
+
+.leftside{
+    float: left;
+}
+
+.rightside{
+    float: right;
+}
+
+input{
+    padding: 12px;
+    width: 190px;
+    border-radius: 7%;
+    text-transform: capitalize;
+    border-color: rgba(0, 0, 0, 0.105);
+
+}
+
+button{
+    font-size: 16px;
+    padding: 11.5px;
+    font-weight: bold;
+    background-color: #0866FF;
+    color: white;
+    border-color: transparent;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+button[type='reset']{
+    background-color: #E4E6EB;
+    color: black;
+}
+.imgaeholder img{
+    display: block;
+    width: 120px;
+    margin: 16px 0 0 16px;
+}
+
+
+.formbox{
+    margin: 80px auto;
+    
+    width: 500px;
+    height: 275px;
+    background-color: white;
+}
+.buttonboxes{
+    float: right;
+}
+.formbox h4{
+        padding: 15px 0 20px 22px ;
+        font-size: x-large;
+        text-transform: capitalize;
+    }
+
+.formbox p{
+    padding: 20px;
+    font-size: large;
+}
+.formbox input{
+    padding: 10px 15px 15px 15px;
+    font-size: small;
+    width: 95%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    background-color: #E5E7E9;
+}
+
+.formbox {
+    box-shadow: 4px 20px 48px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 20px 48px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 20px 48px -5px rgba(0,0,0,0.75);
+
+}
+footer {
+    padding: 180px 270px 25px 270px;
+    background-color: white;
+}
